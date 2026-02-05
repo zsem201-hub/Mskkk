@@ -433,11 +433,9 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-// ============ LOGIN ============
-client.login(process.env.DISCORD_TOKEN)
-    .then(() => console.log('✅ Login successful!'))
-    .catch(error => {
-        console.error('❌ LOGIN FAILED:', error);
-        console.error('Token:', process.env.DISCORD_TOKEN ? 'EXISTS' : 'MISSING');
-        process.exit(1);
-    });
+// TOKEN LANGSUNG DITEMPEL DI SINI
+const MY_TOKEN = "MTQ2ODc5NzEyMzkyNjQyNTYzMQ.GxnVWv.Ag_fTdHreZOB7OUmHg8RRIVsAMeArYX2mMjN3A";
+
+client.login(MY_TOKEN)
+    .then(() => console.log('✅ LOGIN SUKSES (HARDCODE)!'))
+    .catch(err => console.error('❌ LOGIN GAGAL:', err));
