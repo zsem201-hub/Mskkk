@@ -4,8 +4,7 @@ const { Kazagumo } = require('kazagumo');
 const express = require('express');
 
 // ============ TOKEN LANGSUNG ============
-const TOKEN = "MTQ2ODc5NzEyMzkyNjQyNTYzMQ.GxnVWv.Ag_fTdHreZOB7OUmHg8RRIVsAMeArYX2mMjN3A";
-
+const TOKEN = "MTQ2ODc5NzEyMzkyNjQyNTYzMQ.GqXbFM.B7lkgcdTuM16OZJPXxHXWOo9TlHf5fiyOgBmEg";
 // ============ BOT INFO ============
 const BOT_INFO = {
     name: 'Melodify',
